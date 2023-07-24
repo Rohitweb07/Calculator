@@ -1,0 +1,98 @@
+body{
+  background-color:	#D8BFD8;
+}
+
+
+.container
+{
+  margin-top: 100px;
+  height:65vh;
+  width:100vw;
+  background-color: #D8BFD8;
+  border-style: groove;
+  box-shadow:5px 0px 5px 5px grey;
+
+}
+#btn-scn-container
+{
+  background-color:rgba(25, 25, 25,1);
+  height:60vh;
+  width:21vw;
+  margin-left: 600px;
+  border-radius: 10px;
+
+}
+@media screen and (max-width:900px)
+{
+    #btn-scn-container
+    {
+      background-color:rgba(25, 25, 25,1);
+      margin-left: 60px;
+      height:66vh;
+      width:39vw;
+      border-radius: 10px;
+    
+    }
+}
+@media screen and (max-width:600px)
+{
+    #btn-scn-container
+    {
+      background-color:rgba(25, 25, 25,1);
+      margin-left: 60px;
+      height:65vh;
+      width:66vw;
+      border-radius: 10px;
+
+    }
+}
+
+
+/* screen-area */
+
+#screen
+{
+
+  margin-top:50px;
+  margin-left:8px;
+  font-size: 20px;
+  padding:11px;
+  border-radius: 6px;
+  background-color: lightgreen;
+
+}
+
+/* button-color */
+#esc
+{
+  background-color:	#4682B4;
+}
+#d{
+  background-color:	#FF0066;
+}
+#cho
+{
+  background-color: #D2691E;
+}
+
+
+
+/* button-container */
+
+.btn{
+  height:20px;
+  width:50px;
+  margin:12px;
+  border-radius:8px;
+  padding:15px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+  background-color: grey;
+}
+
+
+.btn:hover
+{
+  background-color: cyan;
+}
